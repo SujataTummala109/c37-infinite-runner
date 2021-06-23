@@ -54,7 +54,7 @@ function setup() {
 
   ground = createSprite(300, windowHeight - 40, 600, 20);
   ground.addImage("ground", groundImage);
-  ground.debug = true;
+//   ground.debug = true;
   console.log(ground.width / 2);
   ground.x = ground.width / 2;
 
@@ -78,7 +78,7 @@ function setup() {
   cloudsGroup = createGroup();
 
   trex.setCollider("rectangle", 0, 0, trex.width, trex.height);
-  trex.debug = true;
+//   trex.debug = true;
   trex.velocityX = 4;
 
   score = 0;
